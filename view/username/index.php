@@ -1,6 +1,6 @@
 <?php
-    require_once "../head/head.php";
-    require_once "../../controller/usernameController.php";
+    require_once __DIR__ . '/../head/head.php';
+    require_once __DIR__ . '/../../controller/usernameController.php';
     $obj = new usernameController();
     $rows = $obj->index();
 ?>
