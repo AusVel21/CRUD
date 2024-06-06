@@ -1,7 +1,7 @@
 
 <?php
     session_start();
-        require_once __DIR__ . /../../model/usernameModel.php';
+        require_once __DIR__ . '/../../model/usernameModel.php';
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $correo_electronico = $_POST['correo_electronico'];
