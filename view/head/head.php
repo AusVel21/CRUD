@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . '/../../autentication.php'
+    require_once __DIR__ . '/../../autentication.php';
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
