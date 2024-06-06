@@ -3,7 +3,7 @@
         private $model;
         public function __construct()
         {
-            require_once __DIR__ . '../model/usernameModel.php';
+            require_once __DIR__ . '/../model/usernameModel.php';
             $this->model = new usernameModel();
         }
         public function guardar($nombre, $direccion, $telefono, $correo_electronico, $password){
