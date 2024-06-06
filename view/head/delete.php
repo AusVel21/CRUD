@@ -1,5 +1,5 @@
 <?php
-require_once "../../controller/usernameController.php";
+require_once __DIR__ . '../../controller/usernameController.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = $_POST['id'];
