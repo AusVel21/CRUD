@@ -1,7 +1,7 @@
 <?php
 // update_estado.php
 
-require_once "../../controller/usernameController.php"; // Asegúrate de incluir el archivo que contiene tu modelo
+require_once __DIR__ . '/../../controller/usernameController.php'; // Asegúrate de incluir el archivo que contiene tu modelo
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     
